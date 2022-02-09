@@ -10,15 +10,15 @@ Edited by Aidan Yokuda for a3d3 neural redout project 2-8-2021
 
 The code is written in Python 2.7.6. You will also need:
 
-* **TensorFlow** version 1.5 ([install](https://www.tensorflow.org/install/)) -
+* **TensorFlow** version 1.5 ([install](https://www.tensorflow.org/install/))
 * **NumPy, SciPy, Matplotlib** ([install SciPy stack](https://www.scipy.org/install.html), contains all of them)
 * **h5py** ([install](https://pypi.python.org/pypi/h5py))
 
-Reccomended to create a anaconda environment by:
-	Downloading Miniconda
-	and run
-	$ conda env create -f enviornment.yml
-
+UW - Reccomended to create a anaconda environment by:
+* **Downloading Miniconda** ([download](https://docs.conda.io/en/latest/miniconda.html)) and then run
+<pre>
+$ conda env create -f enviornment.yml
+</pre>
 ## Getting started
 
 Before starting, run the following:
@@ -29,9 +29,11 @@ $ export PYTHONPATH=$PYTHONPATH:/<b>path/to/your/directory</b>/lfads/
 
 where "path/to/your/directory" is replaced with the path to the LFADS repository (you can get this path by using the `pwd` command). This allows the nested directories to access modules from their parent directory.
 
------Aidan's-Example--------
+* Aidan's-Example
+<pre>
 export PYTHONPATH=$PYTHONPATH:/git/models/research/lfads/
-----------------------------
+</pre>
+
 ## Generate synthetic data
 
 In order to generate the synthetic datasets first, from the top-level lfads directory, run:
